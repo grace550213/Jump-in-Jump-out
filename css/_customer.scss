@@ -1,0 +1,68 @@
+$jump:#545871;
+$jump-lighter:#636780;
+$jump-lightest:#DADBE6;
+$jump-grey:#9597A6;
+
+.font500{
+	font-weight: 500;
+}
+.font700{
+	font-weight: 700;
+}
+.color-jump{
+	color: $jump;
+}
+.color-jump-grey{
+	color: $jump-grey;
+}
+.color-jump-lighter{
+	color: $jump-lighter;
+}
+.hover{
+	text-decoration: underline;
+    text-decoration-color: $jump-grey;
+}
+.bg-cover{
+	background-position: center center;
+	background-size: cover;
+}
+.alert-position{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+    margin: auto;
+	z-index: 1000;
+	text-align: center;
+}
+.alert-width{
+	max-width: 700px;
+	max-height: 300px;
+}
+//以上為工具class    
+
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+body{
+	font-family: Microsoft JhengHei, Verdana;
+	margin: 0 auto;
+}
+
+.bg-jump{
+	background-color: $jump;
+}
+.bg-jump-lightest{
+	background-color: $jump-lightest;
+}
+.brand{
+	font-weight: 900;
+}
+.dropdown{
+	transition-delay: 3s;
+}
+.card-img{
+	height: 200px;
+	width: 100%;
+}

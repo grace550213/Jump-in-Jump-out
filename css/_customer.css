@@ -1,0 +1,7 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: Microsoft JhengHei, Verdana;
+  margin: 0 auto; }

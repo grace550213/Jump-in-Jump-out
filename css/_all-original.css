@@ -1,0 +1,149 @@
+
+/*自己寫的CSS*/
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+body{
+	font-family: Microsoft JhengHei, Verdana;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	background: #545871;
+	color: #ffffff;
+	text-align: center;
+	height:300px;
+}
+.header h1{
+	font-size: 80px;
+	font-weight: 900;
+	padding-top: 100px;
+}
+.header h2{
+	font-size: 25px;
+	line-height: 2.5;
+}
+.header input{
+	border: none;
+	margin-right: 10px;
+	padding: 10px 20px;
+}
+.fas,.fa-search{
+	color: #ffffff;
+}
+.fas,.fa-search:active{
+	color: #D9D9DA;
+}
+.wrap{
+	max-width:1000px; 
+	margin: 40px auto;
+}
+.menu{
+	float: left;
+	text-align: right;
+    width:20%; 
+    border-right: 2px solid #DADBE6;
+    padding-right: 4%;
+}
+.menu li a{
+	color: #9597A6;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 2;
+    padding: 10px;
+    border-radius: 10%;
+}
+.menu li a:hover{
+    background: #9597A6;
+    color: #ffffff;
+}
+.content{
+	float: left;
+	width:70%; 
+	margin-left:5%;  
+}
+.hottest{
+	font-size: 20px;
+	font-weight: 700;
+	color: #545871;
+	margin-bottom: 20px;
+	border-bottom: 8px solid #DADBE6;
+	max-width: 200px;
+}
+.content ul li{
+	width: 90%;
+	border: 2px solid #F0F1F7;
+	min-height: 190px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.hover{
+	text-decoration: underline;
+    text-decoration-color: #9597A6;
+}
+.content ul li:active{
+	box-shadow: 2px 2px 2px #F0F1F7;
+}
+.content a{
+	display: block;
+	min-height: 170px;
+}
+.content-img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.article{
+	margin-left: 190px;
+	margin-right: 10px;
+}
+.content h3{
+	font-size: 20px;
+	color: #545871;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.time{
+	font-size: 10px;
+	color: #9597A6;
+	margin-bottom: 15px;
+}
+.main-point{
+	color: #545871;
+	font-size: 14px;
+}
+.clearfix{
+	clear: both;
+}
+@media (max-width: 768px) {
+	.menu{
+		float: none;
+		width: 98%;
+		text-align: center;
+		border:none;
+		margin-bottom: 30px;
+	}
+	.content{
+		float:none;
+		width:98%;
+	}
+}
+@media (max-width: 375px) {
+	.content-img{
+		float: none;
+		width:80%;
+		margin:5% auto 5% auto; 
+	}
+	.article{
+		margin:5%;
+		width: 90%;
+	}
+
+}
